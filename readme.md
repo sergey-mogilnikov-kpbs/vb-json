@@ -1,7 +1,9 @@
 Synopsis
+
 NpJson.cls - json parser for vb6/vba
 
 Examples
+
 Open file JSON.xlsm from directory .\src. You should have a dialog window. Enabled visual basic macros is it required.
 Dialog windows contains follow elements:
   * File combobox - list of files *.js from .\scr\data
@@ -14,16 +16,21 @@ Dialog windows contains follow elements:
   * Close button - close form; press Yes on close query when you want to close Excel
 
 Motivation
+
 Parser was nessecery in one of project. Workable parser was not found, so, now it exists.
 
 Installation
+
 Put NpJson.cls to you project. Use JSON.xlsm as example to use.
 
 Tests / Debug
+
 If you want to test or debug parser, please put you JSON to file with extention .js to .\scr\data. Open JSON.xlsm and load you JSON.
 
 Contributors
+
 Sergey Mogilnikov, sergey.mogilnikov@kpbs.ru
 
 License
-MIT
+
+The MIT License (MIT)
